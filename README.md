@@ -1,12 +1,11 @@
-# [mldangelo.com](http://mldangelo.com) and simplified [mldangelo.github.io/personal-site](https://mldangelo.github.io/personal-site/)
+# [dhruvilgajjar.engineer](http://dhruvilgajjar.engineer) 
 
 My personal website. Easily modifiable, and built using modern javascript with Node.js, React, Express, React-Router, Hot Module Reloading, Webpack and many other technologies.
 
-The master branch of this repository contains a simplified version of my website intended for serverless hosting on github pages. To view the source for the version hosted at [mldangelo.com](http://mldangelo.com), checkout the [server](https://github.com/mldangelo/personal-site/tree/server) branch.
-
+The master branch of this repository contains a simplified version of my website intended for serverless hosting on github pages. To view the source for the version hosted at [dhruvilgajjar.engineer](http://dhruvilgajjar.engineer).
 ## A note on adapting this repository to your own personal website
 
-Many people have contacted me about adapting this website. I have tried to make things as simple as possible. There are still bugs. I am sorry. If you find a bug, please email me (help@mldangelo.com) or submit an issue or a pull request.
+Many people have contacted me about adapting this website. I have tried to make things as simple as possible. There are still bugs. I am sorry. If you find a bug, please email me (dgajjar999@gmail.com) or submit an issue or a pull request.
 
 ## Dependencies
 
@@ -22,7 +21,7 @@ You may wish to fork this repository or remove my remote origin and add your own
 1. To download the repository and install dependencies, run the following commands:
 
     ```bash
-    git clone git://github.com/mldangelo/personal-site.git
+    git clone git://github.com/lucifer2355/portfolio
     cd personal-site
     npm install
     ```
@@ -70,19 +69,4 @@ You may wish to fork this repository or remove my remote origin and add your own
 
 That's it.
 
-Please feel free to reach out to me by filing an issue or at [help@mldangelo.com](mailto:help@mldangelo.com) for help configuring your project.
 
-## Contributors
-
-* [@mldangelo](https://github.com/mldangelo)
-* [@typpo](https://github.com/typpo)
-* [@notrueblood](https://github.com/notrueblood)
-
-## Acknowledgements
-
-* Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-* Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
-
-## License
-
-[MIT](https://github.com/mldangelo/personal-site/blob/master/LICENSE)
