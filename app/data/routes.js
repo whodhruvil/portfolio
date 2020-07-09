@@ -21,6 +21,10 @@ const data = [
     label: "Stats",
   },
   {
+    path: "/tools",
+    label: "Tools",
+  },
+  {
     path: "/contact",
     label: "Contact",
   },
