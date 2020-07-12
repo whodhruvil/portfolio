@@ -71,7 +71,8 @@ You can ask me in person for other stories that I'm afraid to share with the int
 
 #### Fun facts
 
-- I can't locate every country on a map.
+- I like intro more than series.
+- I can locate 45% country on a map.
 - My weight is not gain in fact I am a person who needs 4 times food in a day.
   <!-- - I almost always have a book with me. -->
   <!-- - I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns. -->

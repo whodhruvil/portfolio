@@ -1,0 +1,17 @@
+// Tools page
+
+#tools {
+  h3 {
+    padding-top: 20px;
+  }
+
+  .list {
+    list-style: none;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    padding: 2px 5px;
+    box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.03);
+    background-color: #ececec;
+  }
+}
