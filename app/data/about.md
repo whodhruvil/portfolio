@@ -12,7 +12,7 @@ At Aoroxa I have learned how to build teams and manage people, build relationshi
 
 #### Some history
 
-- I introduced to computer in 2007 when I was 9. It was an old Tandy that ran MS-DOS. My favorite games were Road Rash, GTA Vice City, and Midtown Madness. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
+- I was introduced to computer when I was 9. It was an old Tandy that ran MS-DOS. My favorite games were Road Rash, GTA Vice City, and Midtown Madness. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
 
 - At 10, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
 - At 14, I built my first webpage with HTML.
@@ -73,7 +73,7 @@ You can ask me in person for other stories that I'm afraid to share with the int
 
 - I like intro more than series.
 - I can locate 45% country on a map.
-- My weight is not gain in fact I am a person who needs 4 times food in a day.
+- My weight is not gaining in fact i am a person who needs food 4 times a day.
   <!-- - I almost always have a book with me. -->
   <!-- - I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns. -->
 - I added this page because so many people complained that my site was just a resume.
