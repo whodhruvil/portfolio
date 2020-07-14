@@ -7,7 +7,7 @@ const data = [
     image: "/images/projects/khelmanjari.png",
     date: "2019-02-8",
     desc:
-      "Built for a college spots event. " +
+      "Craete this website for a college spots event. " +
       "Student can register for spots, " +
       "This site is work as portal. In this site show live scrore, spots schedule, game rules.",
   },
@@ -29,7 +29,7 @@ const data = [
     image: "/images/projects/instagram.png",
     date: "2020-07-10",
     desc:
-      "I made a instagram clone with the help of React.js + Hooks + Firebase + so many chrom tabs. " +
+      "I made a instagram clone with the help of React.js + Hooks + Firebase + so many chrome tabs. " +
       "You can sign up & sign in, create post, add comments, " +
       "Now I'm working on like feature.",
   },
