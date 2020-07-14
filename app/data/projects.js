@@ -23,6 +23,17 @@ const data = [
       "and government also store the problem.",
   },
   {
+    title: "Instagram Clone",
+    subtitle: "Instagram Clone",
+    link: "https://sastainstagram.netlify.app/",
+    image: "/images/projects/instagram.png",
+    date: "2020-07-10",
+    desc:
+      "I made a instagram clone with the help of React.js + Hooks + Firebase + so many chrom tabs. " +
+      "You can sign up & sign in, create post, add comments, " +
+      "Now I'm working on like feature.",
+  },
+  {
     title: "Shopping Application",
     subtitle: "Basic shopping application.",
     link: "https://github.com/lucifer2355/shop-app",
@@ -34,16 +45,6 @@ const data = [
       "Cart option is also available .",
   },
   {
-    title: "Meal Application",
-    subtitle: "Food recipe application",
-    link: "https://github.com/lucifer2355/Meal-App",
-    image: "/images/projects/foodApp.png",
-    date: "2019-12-13",
-    desc:
-      "This is simple food recipe cross plateform application. " +
-      "In this application use can choose food recipe by the category and veg non veg filter also. ",
-  },
-  {
     title: "To Do List",
     subtitle: "Task Manager Application",
     link: "https://github.com/lucifer2355/toDoList",
@@ -52,6 +53,16 @@ const data = [
     desc:
       "This is task manager application. " +
       "Maintain your daily task and remind you task on time. Show completed and next task list. ",
+  },
+  {
+    title: "Meal Application",
+    subtitle: "Food recipe application",
+    link: "https://github.com/lucifer2355/Meal-App",
+    image: "/images/projects/foodApp.png",
+    date: "2019-12-13",
+    desc:
+      "This is simple food recipe cross plateform application. " +
+      "In this application use can choose food recipe by the category and veg non veg filter also. ",
   },
 ];
 
