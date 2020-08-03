@@ -11,6 +11,7 @@ import Projects from "./views/Projects";
 import Resume from "./views/Resume";
 import Stats from "./views/Stats";
 import Tools from "./views/Tools";
+import Recomendation from "./views/Recommendation";
 
 // All of our CSS
 import "./static/css/main.scss";
@@ -25,6 +26,7 @@ ReactDOM.render(
       <Route path='/contact' component={Contact} />
       <Route path='/resume' component={Resume} />
       <Route path='/tools' component={Tools} />
+      <Route path='/recommendations' component={Recomendation} />
       {/* Only useful in development mode */}
       <Route component={NotFound} status={404} />
     </Switch>

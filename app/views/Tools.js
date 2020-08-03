@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import ReactMarkdown from "react-markdown";
 
 import Main from "../layouts/Main";
 
@@ -40,7 +39,7 @@ const Tools = () => (
         <h3>OS</h3>
         <li className='list'>macOS Catalina</li>
         <li className='list'>Windows 10 Pro</li>
-        <li className='list'>Linux(Ubuntu)</li>
+        {/* <li className='list'>Linux(Ubuntu)</li> */}
 
         <h3>Editor</h3>
         <li className='list'>
@@ -70,11 +69,11 @@ const Tools = () => (
             PyCharm
           </a>
         </li>
-        <li className='list'>
+        {/* <li className='list'>
           <a href='https://atom.io/' target='_blank' rel='noopener noreferrer'>
             Atom
           </a>
-        </li>
+        </li> */}
 
         <h3>VS Code Extensions</h3>
         <li className='list'>
@@ -162,7 +161,6 @@ const Tools = () => (
         <h3>Browser</h3>
         <li className='list'>Chrome</li>
         <li className='list'>Mozilla Firefox</li>
-        <li className='list'>Safari</li>
 
         <h3>Development</h3>
         <li className='list'>

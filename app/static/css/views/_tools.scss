@@ -2,7 +2,9 @@
 
 #tools {
   h3 {
-    padding-top: 20px;
+    &:not(:first-child) {
+      padding-top: 20px;
+    }
   }
 
   .list {

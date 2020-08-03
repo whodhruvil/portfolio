@@ -25,6 +25,10 @@ const data = [
     label: "Tools",
   },
   {
+    path: "/recommendations",
+    label: "Recomendation",
+  },
+  {
     path: "/contact",
     label: "Contact",
   },

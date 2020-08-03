@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import data from "../../data/contact";
 
 const Nav = () => (
-  <section id='sidebar'>
+  <section id='sidebar' className='nav_sidebar'>
     <section id='intro'>
       <Link to='/' className='logo'>
         <img src={`${BASE_PATH}/images/aboutMe.png`} alt='' />
