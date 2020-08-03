@@ -52,7 +52,7 @@ function Recomendation() {
             author='Stephen Grier'
           />
 
-          <h3>ReactJS</h3>
+          <h3>React JS</h3>
           <CourseList courseName='Mastering React' author='Mosh Hamedani' />
           <CourseList
             courseName='Modern React with Redux'
@@ -61,6 +61,36 @@ function Recomendation() {
           <CourseList
             courseName='React - The Complete Guide (incl Hooks, React Router, Redux)'
             author='Maximilian Schwarzmüller'
+          />
+
+          <h3>React Native</h3>
+          <CourseList
+            courseName='React Native - The Practical Guide'
+            author='Maximilian Schwarzmüller'
+          />
+          <CourseList
+            courseName='The Ultimate React Native Series'
+            author='Mosh Hamedani'
+          />
+
+          <h3>Node JS</h3>
+          <CourseList
+            courseName='Node.js, Express, MongoDB & More: The Complete Bootcamp 2020'
+            author='Jonas Schmedtmann'
+          />
+          <CourseList
+            courseName='The Complete Node.js Course'
+            author='Mosh Hamedani'
+          />
+          <CourseList
+            courseName='The Complete Node.js Developer Course (3rd Edition)'
+            author='Andrew Mead '
+          />
+
+          <h3>Python</h3>
+          <CourseList
+            courseName='Complete Python Mastery'
+            author='Mosh Hamedani'
           />
         </div>
       </article>

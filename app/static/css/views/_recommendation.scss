@@ -1,0 +1,9 @@
+// Recommendation Page
+
+#recommendation {
+  h3 {
+    &:not(:first-child) {
+      padding-top: 20px;
+    }
+  }
+}
