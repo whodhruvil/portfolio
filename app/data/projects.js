@@ -12,6 +12,17 @@ const data = [
       "This site is work as portal. In this site show live scrore, spots schedule, game rules.",
   },
   {
+    title: "AI News",
+    subtitle: "ai news website",
+    link: "https://geekybot.com/",
+    image: "/images/projects/ai-news.png",
+    date: "2020-08-8",
+    desc:
+      "This is news website. " +
+      "But it's only work with voice command, " +
+      "for ai part i'm using alan ai and for website React.js.",
+  },
+  {
     title: "walkMapper",
     subtitle: "New York Government Application",
     // link: "https://devpost.com/software/harvest",
@@ -23,15 +34,13 @@ const data = [
       "and government also store the problem.",
   },
   {
-    title: "Instagram Clone",
-    subtitle: "Instagram Clone",
-    link: "https://sastainstagram.netlify.app/",
-    image: "/images/projects/instagram.png",
-    date: "2020-07-10",
+    title: "Natours",
+    subtitle: "Natours",
+    link: "https://toursbook.netlify.app/",
+    image: "/images/projects/natours.png",
+    date: "2020-08-10",
     desc:
-      "I made a instagram clone with the help of React.js + Hooks + Firebase + so many chrome tabs. " +
-      "You can sign up & sign in, create post, add comments, " +
-      "Now I'm working on like feature.",
+      "This is single page wesite. I make this website using react.js + SCSS. It's onlt make for learning perpose",
   },
   {
     title: "Shopping Application",
