@@ -22,10 +22,10 @@ const Nav = () => (
     <section className='blurb'>
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Dhruvil. I like build things. I am a{" "}
-        <a href='https://www.gmit.edu.in/'>GMIT</a> graduate, and the co-founder
-        of <a href='https://aoroxa.com/'>Aoroxa</a>. Before Aoroxa I was at{" "}
-        <a href='https://www.codraintechnolabs.com/'>Codrain Technolab.</a>,{" "}
+        Hello! My name is Dhruvil Gajjar, As a passionate Web & Cross platform
+        mobile application developer, I always prefer to build things or
+        challenging projects. I have been focusing on clean coding and morden,
+        elegant mobile app & user-friendly website design.
       </p>
       <ul className='actions'>
         <li>
