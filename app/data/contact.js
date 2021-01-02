@@ -13,9 +13,9 @@ const data = [
     icon: faGithub,
   },
   {
-    link: "https://www.facebook.com/dhruvil.gajjar.505/",
-    label: "Facebook",
-    icon: faFacebook,
+    link: "https://www.linkedin.com/in/dhruvil-gajjar/",
+    label: "LinkedIn",
+    icon: faLinkedinIn,
   },
   {
     link: "https://www.instagram.com/lucifer_2355/",
@@ -23,14 +23,14 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: "https://www.linkedin.com/in/dhruvil-gajjar/",
-    label: "LinkedIn",
-    icon: faLinkedinIn,
-  },
-  {
     link: "https://twitter.com/lucifer2355",
     label: "Twitter",
     icon: faTwitter,
+  },
+  {
+    link: "https://www.facebook.com/dhruvil.gajjar.505/",
+    label: "Facebook",
+    icon: faFacebook,
   },
   {
     link: "mailto: dgajjar999@gmail.com",
