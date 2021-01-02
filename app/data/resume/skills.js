@@ -8,9 +8,14 @@ const skills = [
     category: ["Web Development", "Languages", "Javascript"],
   },
   {
+    title: "Node JS",
+    competency: 3,
+    category: ["Web Development", "Backend", "Javascript"],
+  },
+  {
     title: "php",
     competency: 3,
-    category: ["Web Development", "Languages"],
+    category: ["Web Development", "Backend", "Languages"],
   },
   {
     title: "React Native",
@@ -18,16 +23,20 @@ const skills = [
     category: ["Mobile Application", "Javascript"],
   },
   {
-    title: "Node.JS",
-    competency: 2,
-    category: ["Web Development", "Javascript"],
+    title: "React",
+    competency: 4,
+    category: ["Web Development", "Frontend", "Javascript"],
   },
   {
-    title: "React",
+    title: "Next JS",
     competency: 3,
-    category: ["Web Development", "Javascript"],
+    category: ["Web Development", "Frontend", "Javascript"],
   },
-
+  {
+    title: "GraphQL",
+    competency: 2,
+    category: ["Web Development", "Frontend"],
+  },
   {
     title: "Amazon Web Services",
     competency: 2,
@@ -51,18 +60,13 @@ const skills = [
 
   {
     title: "PostgreSQL/SQLite3/SQL",
-    competency: 4,
-    category: ["Web Development", "Databases", "Languages"],
-  },
-  {
-    title: "Flask",
-    competency: 2,
-    category: ["Web Development", "Python"],
+    competency: 3,
+    category: ["Web Development", "Databases"],
   },
   {
     title: "Django",
-    competency: 3,
-    category: ["Web Development", "Python"],
+    competency: 2,
+    category: ["Web Development", "Backend", "Python"],
   },
   {
     title: "Git/Mercurial",
@@ -82,33 +86,18 @@ const skills = [
   },
   {
     title: "Typescript",
-    competency: 1,
+    competency: 3,
     category: ["Web Development", "Languages", "Javascript"],
   },
   {
     title: "HTML + CSS",
-    competency: 3,
-    category: ["Web Development", "Languages"],
+    competency: 4,
+    category: ["Web Development", "Frontend"],
   },
   {
     title: "Python",
     competency: 3,
-    category: ["Languages", "Python"],
-  },
-  {
-    title: "C++",
-    competency: 2,
-    category: ["Languages"],
-  },
-  {
-    title: "C",
-    competency: 2,
-    category: ["Languages"],
-  },
-  {
-    title: "C#",
-    competency: 2,
-    category: ["Languages"],
+    category: ["Web Development", "Languages", "Python"],
   },
   {
     title: "Data Visualization",

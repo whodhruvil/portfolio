@@ -69,20 +69,33 @@ const Tools = () => (
             PyCharm
           </a>
         </li>
-        {/* <li className='list'>
-          <a href='https://atom.io/' target='_blank' rel='noopener noreferrer'>
-            Atom
-          </a>
-        </li> */}
 
         <h3>VS Code Extensions</h3>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=teabyii.ayu'
+            href='https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Theme: Ayu MirageMode
+            Theme: SynthWave 84
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Prettier
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            ESLint
           </a>
         </li>
         <li className='list'>

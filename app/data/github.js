@@ -17,19 +17,19 @@ const data = [
   {
     label: "Stars on my github",
     key: "stargazers_count",
-    value: "18",
+    value: "9",
     // link: "https://github.com/mldangelo/personal-site/stargazers",
   },
   {
     label: "Number of people watching this repository",
     key: "subscribers_count",
-    value: "1",
+    value: "3",
     // link: "https://github.com/mldangelo/personal-site/stargazers",
   },
   {
     label: "Number of forks",
     key: "forks",
-    value: "1",
+    value: "2",
     // link: "https://github.com/mldangelo/personal-site/network",
   },
   {

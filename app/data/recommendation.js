@@ -91,7 +91,7 @@ const data = [
         name: "The Ultimate React Native Series",
         author: "Mosh Hamedani",
         link:
-          "https://codewithmosh.com/p/the-ultimate-react-native-course-part1",
+          "https://codewithmosh.com/p/the-ultimate-react-native-course-part2",
         authorTwitter: "https://twitter.com/moshhamedani",
       },
     ],

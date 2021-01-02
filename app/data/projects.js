@@ -1,15 +1,12 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: "Khelmanjari",
-    subtitle: "2019/20 College spots event",
-    link: "http://khelmanjari.gmit.edu.in/",
-    image: "/images/projects/khelmanjari.png",
-    date: "2019-02-8",
+    title: "Phonix",
+    subtitle: "Video Streaming Application",
+    image: "/images/projects/phonix.png",
+    date: "2020-11",
     desc:
-      "Craete this website for a college spots event. " +
-      "Student can register for spots, " +
-      "This site is work as portal. In this site show live scrore, spots schedule, game rules.",
+      "Phonix is a video streaming cross-platform mobile application. User can stream their favorit shows & movies. User also can download it",
   },
   {
     title: "AI News",
@@ -18,9 +15,10 @@ const data = [
     image: "/images/projects/ai-news.png",
     date: "2020-08-8",
     desc:
-      "This is news website. " +
-      "But it's only work with voice command, " +
-      "for ai part i'm using alan ai and for website React.js.",
+      "Voice command base NEWS web app. " +
+      "It's work only on voice command, " +
+      "Like `Give me the latest NEWS`, " +
+      "for AI part I'm using Alan AI and for frontend React.js & Metrial UI.",
   },
   {
     title: "walkMapper",
@@ -34,20 +32,41 @@ const data = [
       "and government also store the problem.",
   },
   {
+    title: "Done With It",
+    subtitle: "New York Government Application",
+    link: "https://github.com/lucifer2355/pinterest",
+    image: "/images/projects/donewithit.png",
+    date: "2020-08-25",
+    desc:
+      "donw with it is part of learning React Native advance concepts. " +
+      "This app is for selling your old or unused things.",
+  },
+  {
+    title: "Khelmanjari",
+    subtitle: "2019/20 College spots event",
+    link: "http://khelmanjari.gmit.edu.in/",
+    image: "/images/projects/khelmanjari.png",
+    date: "2019-02-8",
+    desc:
+      "Craete this website for a college spots event. " +
+      "Student can register for spots, " +
+      "This site is work as portal. In this site show live scrore, spots schedule, game rules.",
+  },
+  {
     title: "Natours",
     subtitle: "Natours",
     link: "https://toursbook.netlify.app/",
     image: "/images/projects/natours.png",
     date: "2020-08-10",
     desc:
-      "This is single page wesite. I make this website using react.js + SCSS. It's onlt make for learning perpose",
+      "This is single page wesite. It's a tour booking related website design. I make this website using react.js + SCSS. This website is part of learning SASS & React",
   },
   {
     title: "Shopping Application",
     subtitle: "Basic shopping application.",
     link: "https://github.com/lucifer2355/shop-app",
     image: "/images/projects/shopApp.png",
-    date: "2019-12-17",
+    date: "2020-01-17",
     desc:
       "This is cross plateform mobile application build in react native. " +
       "Application is basic shopping app. Use can login and register, add product. " +
@@ -62,16 +81,6 @@ const data = [
     desc:
       "This is task manager application. " +
       "Maintain your daily task and remind you task on time. Show completed and next task list. ",
-  },
-  {
-    title: "Meal Application",
-    subtitle: "Food recipe application",
-    link: "https://github.com/lucifer2355/Meal-App",
-    image: "/images/projects/foodApp.png",
-    date: "2019-12-13",
-    desc:
-      "This is simple food recipe cross plateform application. " +
-      "In this application use can choose food recipe by the category and veg non veg filter also. ",
   },
 ];
 
