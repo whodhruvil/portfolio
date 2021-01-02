@@ -5,15 +5,15 @@ function CourseList({ courseName, courseLink, author, authorTwitter }) {
   return (
     <>
       <li className='list'>
-        <Link to={courseLink} target='_blank' rel='noopener noreferrer'>
+        <a href={courseLink} target='_blank' rel='noopener noreferrer'>
           {courseName}
-        </Link>
+        </a>
         <span style={{ marginRight: 10, marginLeft: 10, color: "#000" }}>
           by
         </span>
-        <Link href={authorTwitter} target='_blank' rel='noopener noreferrer'>
+        <a href={authorTwitter} target='_blank' rel='noopener noreferrer'>
           {author}
-        </Link>
+        </a>
       </li>
     </>
   );
