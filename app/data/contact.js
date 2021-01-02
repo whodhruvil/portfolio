@@ -23,7 +23,7 @@ const data = [
     icon: faInstagram,
   },
   {
-    link: "https://www.linkedin.com/in/dhruvil-gajjar-829b6b139/",
+    link: "https://www.linkedin.com/in/dhruvil-gajjar/",
     label: "LinkedIn",
     icon: faLinkedinIn,
   },
