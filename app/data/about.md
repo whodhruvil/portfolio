@@ -57,8 +57,6 @@ You can ask me in person for other stories that I'm afraid to share with the int
 - I like intro more than series.
 - I can locate 45% country on a map.
 - My weight is not gaining in fact i am a person who needs food 4 times a day.
-  <!-- - I almost always have a book with me. -->
-  <!-- - I operate a [small angel fund](http://skepticalinvestments.biz/) with terrible returns. -->
 - I added this page because so many people complained that my site was just a resume.
 
 #### I dream of
@@ -66,4 +64,3 @@ You can ask me in person for other stories that I'm afraid to share with the int
 - Doing better.
 - Enabling a brighter future.
 - Always finding inspiration.
-<!-- - No one checking my commit history for early drafts of this file. -->
