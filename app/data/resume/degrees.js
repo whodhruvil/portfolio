@@ -1,6 +1,6 @@
 const degrees = [
   {
-    school: "Gyanmanjari Institute of technology",
+    school: "Gyanmanjari Institute of Technology",
     degree: "B.E. Information Technology",
     link: "https://www.gmit.edu.in/",
     year: 2020,

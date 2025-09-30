@@ -1,27 +1,34 @@
 #### Intro
 
-I am a co-founder of [Aoroxa](https://aoroxa.com/) where I work on engineering infrastructure and build tools to price fine art. My primary job functions are as a software engineer.
+I am Dhruvil, working at [Saleshandy](https://saleshandy.com) as a Frontend Developer. My primary focus at Saleshandy is building user-centric features while maintaining a high-quality codebase.
 <br>
-I am available to consult on interesting projects. I am particularly interested in social impact, education, inclusivity, and space. I enjoy advising companies and may even be available for pro-bono work depending on the time commitment and the project. If you would like to arrange a meeting, I am based in Ahmedabad but travel to the Bangalore Bay Area frequently.
+I am available to consult on interesting projects. I am particularly interested in:
+
+- Social impact
+- Education
+- Inclusivity
+- Space
+
+I enjoy advising companies and may be available for pro-bono work depending on the time commitment and project scope. If you would like to arrange a meeting, I am based in Ahmedabad, India.
 <br><br>
 
 #### Currently
 
-At Codrain I have learned some development skills like React, React Native, Node JS, Express, Magento. Codrain tech me how to work with team on same project.
+At Codrain, I have learned various development skills including React, React Native, Node.js, Express, and Magento. Codrain taught me how to work with a team on the same project.
 <br><br>
-At Aoroxa I have learned how to build teams and manage people, build relationships with customers, sell enterprise products, and build on-line predictive models for production environments. I've also learned how to build and maintain large web applications & mobile application (see [aoroxa.com](https://aoroxa.com/)).
+At Aoroxa, I have learned how to build teams and manage people, build relationships with customers, sell enterprise products, and build online predictive models for production environments. I've also learned how to build and maintain large web applications & mobile applications (see [aoroxa.com](https://aoroxa.com/)).
 <br><br>
 
 #### Some history
 
-- I was introduced to computer when I was 9. It was an old Tandy that ran MS-DOS. My favorite games were Road Rash, GTA Vice City, and Midtown Madness. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
+- I was introduced to computers when I was 9. It was an old Tandy that ran MS-DOS. My favorite games were Road Rash, GTA Vice City, and Midtown Madness. It had a mechanical keyboard and a turbo button. To this day, I still don't know what pressing the turbo button really did.
 
 - At 10, I discovered the mini-games hidden in Microsoft Office. I also beat Minesweeper on expert for the first time.
 - At 14, I built my first webpage with HTML.
-- 14 - 17, I played a lot of video games. My favorites included Counter Strike Source, Command and Conquer 3, Halo 2, and Age of Empires 3.
-- At 17, I took my first programm writen in c .
+- From 14 to 17, I played a lot of video games. My favorites included Counter-Strike Source, Command and Conquer 3, Halo 2, and Age of Empires 3.
+- At 17, I wrote my first program in C.
 
-- At 20, I remember 8 February 2019 the day of my 1st job interview at [Codrain Technolab.](https://www.codraintechnolabs.com/)
+- At 20, I remember February 8, 2019 - the day of my first job interview at [Codrain Technolab.](https://www.codraintechnolabs.com/)
 
 You can ask me in person for other stories that I'm afraid to share with the internet.
 <br><br>
@@ -54,9 +61,9 @@ You can ask me in person for other stories that I'm afraid to share with the int
 
 #### Fun facts
 
-- I like intro more than series.
-- I can locate 45% country on a map.
-- My weight is not gaining in fact i am a person who needs food 4 times a day.
+- I like intros more than series.
+- I can locate 45% of countries on a map.
+- My weight doesn't gain; in fact, I am a person who needs food 4 times a day.
 - I added this page because so many people complained that my site was just a resume.
 
 #### I dream of
@@ -64,3 +71,7 @@ You can ask me in person for other stories that I'm afraid to share with the int
 - Doing better.
 - Enabling a brighter future.
 - Always finding inspiration.
+- Getting a nuke in Call of Duty (30 killstreak seems impossible!).
+- Finally beating that one camper who keeps sniping me.
+- Having the perfect gaming setup with RGB everything.
+- Becoming a pro gamer (but first I need to stop rage quitting).

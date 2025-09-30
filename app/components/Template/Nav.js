@@ -9,7 +9,7 @@ const Nav = () => (
   <section id='sidebar' className='nav_sidebar'>
     <section id='intro'>
       <Link to='/' className='logo'>
-        <img src={`${BASE_PATH}/images/aboutMe.png`} alt='' />
+        <img src={`${BASE_PATH}/images/aboutMe.jpg`} alt='' />
       </Link>
       <header>
         <h2>Dhruvil Gajjar</h2>
@@ -24,7 +24,7 @@ const Nav = () => (
       <p>
         Hello! My name is Dhruvil Gajjar, As a passionate Web & Cross platform
         mobile application developer, I always prefer to build things or
-        challenging projects. I have been focusing on clean coding and morden,
+        challenging projects. I have been focusing on clean coding and modern,
         elegant mobile app & user-friendly website design.
       </p>
       <ul className='actions'>
