@@ -1,6 +1,6 @@
 [build]
   base = "."
-  command = "mise settings add idiomatic_version_file_enable_tools node && npm install --legacy-peer-deps && npm run build && ls -la build/"
+  command = "npm install --legacy-peer-deps && ./node_modules/.bin/webpack --config ./webpack/webpack.production.config.babel.js --progress --profile --colors && cp -r public/* build/ && ls -la build/"
   publish = "build"
 
 [build.environment]

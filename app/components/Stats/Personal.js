@@ -8,12 +8,12 @@ const PersonalStats = () => {
 
   const tick = () => {
     const divisor = 1000 * 60 * 60 * 24 * 365.2421897; // ms in an average year
-    const birthTime = new Date("1998-11-23T09:24:00");
+    const careerStartTime = new Date("2019-06-17T09:00:00");
     setData({
       ...data,
       age: {
-        label: "Current age",
-        value: ((Date.now() - birthTime) / divisor).toFixed(11),
+        label: "Years in industry",
+        value: ((Date.now() - careerStartTime) / divisor).toFixed(11),
       },
     });
   };
