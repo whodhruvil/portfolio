@@ -1,6 +1,6 @@
 const data = {
   age: {
-    label: "Current age",
+    label: "Years in industry",
     value: 0,
   },
   location: {
