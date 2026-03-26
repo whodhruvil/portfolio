@@ -19,11 +19,11 @@ const Tools = () => (
         <h3>Devices</h3>
         <li className='list'>
           <a
-            href='https://www.amazon.com/Apple-MacBook-2-8GHz-MGXG2LL-Renewed/dp/B07DF43SY3'
+            href='https://www.apple.com/in/shop/buy-mac/macbook-air'
             target='_blank'
             rel='noopener noreferrer'
           >
-            MacBook Pro (Retina, 15-inch, Mid 2015)
+            MacBook Air M2
           </a>
         </li>
         <li className='list'>
@@ -36,12 +36,32 @@ const Tools = () => (
           </a>
         </li>
 
+        <h3>Console</h3>
+        <li className='list'>
+          <a
+            href='https://www.playstation.com/en-in/ps5/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            PS5 Disk Edition
+          </a>
+        </li>
+
         <h3>OS</h3>
-        <li className='list'>macOS Catalina</li>
+        <li className='list'>macOS Tahoe</li>
         <li className='list'>Windows 10 Pro</li>
         {/* <li className='list'>Linux(Ubuntu)</li> */}
 
         <h3>Editor</h3>
+        <li className='list'>
+          <a
+            href='https://cursor.sh/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Cursor
+          </a>
+        </li>
         <li className='list'>
           <a
             href='https://code.visualstudio.com/'
@@ -62,31 +82,58 @@ const Tools = () => (
         </li>
         <li className='list'>
           <a
-            href='https://www.jetbrains.com/pycharm/'
+            href='https://www.jetbrains.com/webstorm/'
             target='_blank'
             rel='noopener noreferrer'
           >
-            PyCharm
+            WebStorm
           </a>
         </li>
 
         <h3>VS Code Extensions</h3>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode'
+            href='https://marketplace.visualstudio.com/items?itemName=DaltonMenezes.aura-theme'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Theme: SynthWave 84
+            Theme: Aura Spirit Dracula Theme
           </a>
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=SimonSiefke.prettier-vscode'
+            href='https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Prettier
+            Color Highlight
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=anseki.vscode-colorize'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Colorize
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            CSS Peek
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            ES7+ React/Redux/React-Native snippets
           </a>
         </li>
         <li className='list'>
@@ -100,29 +147,20 @@ const Tools = () => (
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer'
+            href='https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Live Server
+            Fluent Icons
           </a>
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme'
+            href='https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Material Icon Theme
-          </a>
-        </li>
-        <li className='list'>
-          <a
-            href='https://marketplace.visualstudio.com/items?itemName=natqe.reload'
-            target='_blank'
-            rel='noopener noreferrer'
-          >
-            Reload
+            GitLens — Git supercharged
           </a>
         </li>
         <li className='list'>
@@ -136,44 +174,159 @@ const Tools = () => (
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=msjsdiag.vscode-react-native'
+            href='https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode'
             target='_blank'
             rel='noopener noreferrer'
           >
-            React Native Tools
+            IntelliCode
           </a>
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets'
+            href='https://marketplace.visualstudio.com/items?itemName=glenn2223.live-sass'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Simple React Snippet
+            Live Sass Compiler
           </a>
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=NuclleaR.vscode-extension-auto-import'
+            href='https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Auto Import - ES6, TS, JSX, TSX
+            Path Intellisense
           </a>
         </li>
         <li className='list'>
           <a
-            href='https://marketplace.visualstudio.com/items?itemName=ms-python.python'
+            href='https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode'
             target='_blank'
             rel='noopener noreferrer'
           >
-            Python
+            Prettier - Code formatter
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=alefragnani.project-manager'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Project Manager
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=natqe.reload'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Reload
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=SimonSiefke.svg-preview'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            SVG Preview
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Tailwind CSS IntelliSense
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=rangav.vscode-thunder-client'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Thunder Client
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=unthrottled.turbo-console-log'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Turbo Console Log
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=tldraw.tldraw-vscode'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            tldraw
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://marketplace.visualstudio.com/items?itemName=planbcoding.vscode-react-refactor'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            VSCode React Refactor
           </a>
         </li>
 
         <h3>Browser</h3>
-        <li className='list'>Chrome</li>
-        <li className='list'>Mozilla Firefox</li>
+        <li className='list'>
+          <a
+            href='https://brave.com/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Brave
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://www.perplexity.ai/comet'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Comet
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://www.apple.com/safari/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Safari
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://www.google.com/chrome/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Chrome
+          </a>
+        </li>
+        <li className='list'>
+          <a
+            href='https://www.mozilla.org/en-US/firefox/'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            Mozilla Firefox
+          </a>
+        </li>
 
         <h3>Development</h3>
         <li className='list'>

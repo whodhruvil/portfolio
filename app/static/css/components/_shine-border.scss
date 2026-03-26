@@ -1,0 +1,390 @@
+/*
+ * Shine Border & Glowing Border Animation Styles
+ * Creates animated border effects that only affect the border, not the content background
+ * Includes both shine and glow effects for enhanced visual appeal
+ */
+
+/* Keyframe animation for the shine effect */
+@keyframes shine-border {
+  0% {
+    background-position: -200% -200%;
+  }
+  100% {
+    background-position: 200% 200%;
+  }
+}
+
+/* Keyframe animation for the glow effect */
+@keyframes glow-border {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(46, 89, 186, 0.3), 0 0 10px rgba(46, 89, 186, 0.2),
+      0 0 15px rgba(46, 89, 186, 0.1), inset 0 0 5px rgba(46, 89, 186, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(46, 89, 186, 0.6), 0 0 20px rgba(46, 89, 186, 0.4),
+      0 0 30px rgba(46, 89, 186, 0.2), inset 0 0 10px rgba(46, 89, 186, 0.2);
+  }
+}
+
+/* Keyframe animation for purple glow */
+@keyframes glow-border-purple {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(160, 124, 254, 0.3),
+      0 0 10px rgba(160, 124, 254, 0.2), 0 0 15px rgba(160, 124, 254, 0.1),
+      inset 0 0 5px rgba(160, 124, 254, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(160, 124, 254, 0.6),
+      0 0 20px rgba(160, 124, 254, 0.4), 0 0 30px rgba(160, 124, 254, 0.2),
+      inset 0 0 10px rgba(160, 124, 254, 0.2);
+  }
+}
+
+/* Keyframe animation for pink glow */
+@keyframes glow-border-pink {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(254, 143, 181, 0.3),
+      0 0 10px rgba(254, 143, 181, 0.2), 0 0 15px rgba(254, 143, 181, 0.1),
+      inset 0 0 5px rgba(254, 143, 181, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(254, 143, 181, 0.6),
+      0 0 20px rgba(254, 143, 181, 0.4), 0 0 30px rgba(254, 143, 181, 0.2),
+      inset 0 0 10px rgba(254, 143, 181, 0.2);
+  }
+}
+
+/* Keyframe animation for white glow (dark theme) */
+@keyframes glow-border-white {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2),
+      0 0 10px rgba(255, 255, 255, 0.1), 0 0 15px rgba(46, 89, 186, 0.1),
+      inset 0 0 5px rgba(255, 255, 255, 0.05);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.4),
+      0 0 20px rgba(255, 255, 255, 0.2), 0 0 30px rgba(46, 89, 186, 0.2),
+      inset 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+}
+
+/* Container for elements with shine border */
+.shine-border-container {
+  position: relative;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+/* Dark theme specific shine border */
+.shine-border-container.shine-border-dark {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        rgba(46, 89, 186, 0.3),
+        rgba(255, 255, 255, 0.1),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 14s linear infinite;
+}
+
+/* Blue variant shine border */
+.shine-border-container.shine-border-blue {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(46, 89, 186, 0.2),
+        rgba(46, 89, 186, 0.6),
+        rgba(46, 89, 186, 0.2),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 12s linear infinite;
+}
+
+/* Purple variant shine border */
+.shine-border-container.shine-border-purple {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(160, 124, 254, 0.2),
+        rgba(160, 124, 254, 0.6),
+        rgba(160, 124, 254, 0.2),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 16s linear infinite;
+}
+
+/* Pink variant shine border */
+.shine-border-container.shine-border-pink {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(254, 143, 181, 0.2),
+        rgba(254, 143, 181, 0.6),
+        rgba(254, 143, 181, 0.2),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 18s linear infinite;
+}
+
+/* ========== GLOWING BORDER VARIANTS ========== */
+
+/* Dark theme glowing border */
+.shine-border-container.glow-border-dark {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(46, 89, 186, 0.2))
+      border-box;
+  animation: glow-border-white 3s ease-in-out infinite;
+}
+
+/* Blue glowing border */
+.shine-border-container.glow-border-blue {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(45deg, rgba(46, 89, 186, 0.2), rgba(46, 89, 186, 0.4))
+      border-box;
+  animation: glow-border 3s ease-in-out infinite;
+}
+
+/* Purple glowing border */
+.shine-border-container.glow-border-purple {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(45deg, rgba(160, 124, 254, 0.2), rgba(160, 124, 254, 0.4))
+      border-box;
+  animation: glow-border-purple 3s ease-in-out infinite;
+}
+
+/* Pink glowing border */
+.shine-border-container.glow-border-pink {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(45deg, rgba(254, 143, 181, 0.2), rgba(254, 143, 181, 0.4))
+      border-box;
+  animation: glow-border-pink 3s ease-in-out infinite;
+}
+
+/* ========== COMBINED SHINE + GLOW EFFECTS ========== */
+
+/* Combined shine and glow - dark theme */
+.shine-border-container.shine-glow-dark {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        rgba(46, 89, 186, 0.3),
+        rgba(255, 255, 255, 0.1),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 14s linear infinite,
+    glow-border-white 3s ease-in-out infinite;
+}
+
+/* Combined shine and glow - blue theme */
+.shine-border-container.shine-glow-blue {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(46, 89, 186, 0.2),
+        rgba(46, 89, 186, 0.6),
+        rgba(46, 89, 186, 0.2),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 12s linear infinite,
+    glow-border 3s ease-in-out infinite;
+}
+
+/* Combined shine and glow - purple theme */
+.shine-border-container.shine-glow-purple {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(160, 124, 254, 0.2),
+        rgba(160, 124, 254, 0.6),
+        rgba(160, 124, 254, 0.2),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 16s linear infinite,
+    glow-border-purple 3s ease-in-out infinite;
+}
+
+/* Combined shine and glow - pink theme */
+.shine-border-container.shine-glow-pink {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(
+        45deg,
+        transparent,
+        rgba(254, 143, 181, 0.2),
+        rgba(254, 143, 181, 0.6),
+        rgba(254, 143, 181, 0.2),
+        transparent
+      )
+      border-box;
+  background-size: 100% 100%, 200% 200%;
+  animation: shine-border 18s linear infinite,
+    glow-border-pink 3s ease-in-out infinite;
+}
+
+/* Hover effects for shine border */
+.shine-border-container:hover {
+  animation-duration: 8s;
+}
+
+/* Specific styling for post articles with shine border */
+.post.shine-border-container {
+  /* Mirror the original .post styling from _post.scss */
+  padding: 3em;
+  margin: 0 0 3em 0;
+  position: relative;
+
+  /* Make the inner article behave like the original post */
+  article {
+    background: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+
+    /* Header styling that matches original _post.scss */
+    > header {
+      display: flex;
+      border-bottom: solid 1px rgba(176, 176, 176, 0.3);
+      left: -3em;
+      margin: -3em 0 3em 0;
+      position: relative;
+      width: calc(100% + 6em);
+
+      .title {
+        flex-grow: 1;
+        padding: 3.75em 3em 3.3em 3em;
+
+        h2 {
+          font-weight: 900;
+          font-size: 1.5em;
+        }
+
+        > :last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
+
+/* Ensure resume-specific styles work inside shine border */
+.post.shine-border-container#resume {
+  article {
+    /* Let the original resume styles work normally */
+    .education,
+    .experience,
+    .skills,
+    .courses,
+    .references {
+      /* Don't override - let original styles apply */
+    }
+  }
+}
+
+/* Specific styling for boxes */
+.box.shine-border-container {
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+/* Responsive adjustments */
+@include breakpoint(medium) {
+  .post.shine-border-container {
+    border-left: 0;
+    border-right: 0;
+    left: -3em;
+    width: calc(100% + 6em);
+
+    article > header {
+      flex-direction: column;
+      padding: 3.75em 3em 0 3em;
+      border-left: 0;
+
+      .title {
+        margin: 0 0 2em 0;
+        padding: 0;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@include breakpoint(small) {
+  .shine-border-container {
+    animation-duration: 12s;
+  }
+
+  .shine-border-container:hover {
+    animation-duration: 6s;
+  }
+
+  .post.shine-border-container {
+    padding: 1.5em;
+    left: -1.5em;
+    margin: 0 0 2em 0;
+    width: calc(100% + 3em);
+
+    article > header {
+      padding: 3em 1.5em 0 1.5em;
+      left: -1.5em;
+      margin: -1.5em 0 1.5em 0;
+      width: calc(100% + 3em);
+
+      .title {
+        h2 {
+          font-size: 1.1em;
+        }
+      }
+    }
+  }
+}
+
+/* Accessibility - reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .shine-border-container {
+    animation: none !important;
+    background: linear-gradient(#121212, #121212) padding-box,
+      rgba(46, 89, 186, 0.1) border-box !important;
+  }
+
+  /* Static glow effect for reduced motion */
+  .shine-border-container[class*="glow-border"] {
+    box-shadow: 0 0 5px rgba(46, 89, 186, 0.2), 0 0 10px rgba(46, 89, 186, 0.1),
+      inset 0 0 5px rgba(46, 89, 186, 0.05) !important;
+  }
+}
+
+/* Print styles - disable shine border for printing */
+@media print {
+  .shine-border-container {
+    background: #121212 !important;
+    border: 1px solid rgba(176, 176, 176, 0.3) !important;
+    animation: none !important;
+  }
+}

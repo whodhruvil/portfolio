@@ -5,15 +5,73 @@
     &:not(:first-child) {
       padding-top: 20px;
     }
+    color: #ffffff !important;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 15px;
+    font-size: 0.9em;
   }
 
   .list {
     list-style: none;
-    margin-right: 10px;
-    margin-bottom: 10px;
+    margin-right: 12px;
+    margin-bottom: 12px;
     display: inline-flex;
-    padding: 2px 5px;
-    box-shadow: 5px 5px 25px 0 rgba(0, 0, 0, 0.03);
-    background-color: #ececec;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #121212 0%, #1a1a1a 100%);
+    border: 1px solid rgba(176, 176, 176, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    font-size: 0.85em;
+    font-weight: 500;
+
+    a {
+      color: #b0b0b0 !important;
+      text-decoration: none;
+      border: none !important;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ffffff !important;
+      }
+    }
+
+    &:hover {
+      transform: translateY(-2px);
+      background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+      border-color: rgba(176, 176, 176, 0.4);
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    }
+
+    // Special styling for items without links
+    &:not(:has(a)) {
+      color: #b0b0b0;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+
+    // Responsive adjustments
+    @include breakpoint(small) {
+      margin-right: 8px;
+      margin-bottom: 8px;
+      padding: 6px 12px;
+      font-size: 0.8em;
+    }
+
+    @include breakpoint(xsmall) {
+      margin-right: 6px;
+      margin-bottom: 6px;
+      padding: 5px 10px;
+      font-size: 0.75em;
+      border-radius: 15px;
+
+      &:hover {
+        transform: translateY(-1px);
+      }
+    }
   }
 }

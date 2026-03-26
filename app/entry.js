@@ -8,6 +8,7 @@ import Contact from "./views/Contact";
 import Index from "./views/Index";
 import NotFound from "./views/NotFound";
 import Projects from "./views/Projects";
+import Games from "./views/Games";
 import Resume from "./views/Resume";
 import Stats from "./views/Stats";
 import Tools from "./views/Tools";
@@ -22,6 +23,7 @@ ReactDOM.render(
       <Route exact path='/' component={Index} />
       <Route path='/about' component={About} />
       <Route path='/projects' component={Projects} />
+      <Route path='/games' component={Games} />
       <Route path='/stats' component={Stats} />
       <Route path='/contact' component={Contact} />
       <Route path='/resume' component={Resume} />

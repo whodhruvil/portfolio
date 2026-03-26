@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111f"/>
+      <stop offset="1" stop-color="#191034"/>
+    </linearGradient>
+    <linearGradient id="line" x1="85" y1="98" x2="1115" y2="577" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#28f6f8"/>
+      <stop offset="1" stop-color="#f57f20"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="22" fill="url(#bg)"/>
+  <rect x="85" y="98" width="1030" height="479" rx="18" stroke="url(#line)" stroke-width="4" stroke-opacity="0.55"/>
+  <circle cx="194" cy="170" r="42" fill="#28f6f8" fill-opacity="0.18"/>
+  <circle cx="1006" cy="505" r="58" fill="#f57f20" fill-opacity="0.16"/>
+  <text x="600" y="318" fill="#E7F8F8" font-family="Rajdhani, Tahoma, sans-serif" font-size="68" font-weight="700" letter-spacing="8" text-anchor="middle">GAME COVER</text>
+  <text x="600" y="378" fill="#95A8C2" font-family="Rajdhani, Tahoma, sans-serif" font-size="30" font-weight="500" letter-spacing="6" text-anchor="middle">IMAGE UNAVAILABLE</text>
+</svg>

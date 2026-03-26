@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@500;700&display=swap");
+
+#games {
+  --games-bg-a: #030711;
+  --games-bg-b: #0a1732;
+  --games-card-a: #0a1326;
+  --games-card-b: #141a2a;
+  --games-line: rgba(78, 236, 255, 0.24);
+  --games-hot: #ff8b2a;
+  --games-cold: #4ff0ff;
+  --games-text: #e5f4ff;
+  --games-muted: #9eb5cf;
+
+  background:
+    radial-gradient(circle at 12% 16%, rgba(79, 240, 255, 0.12), transparent 34%),
+    radial-gradient(circle at 88% 82%, rgba(255, 139, 42, 0.14), transparent 38%),
+    linear-gradient(150deg, var(--games-bg-a), var(--games-bg-b));
+  border-radius: 16px;
+  border: 1px solid rgba(79, 240, 255, 0.24);
+  box-shadow: 0 22px 55px rgba(0, 0, 0, 0.36);
+  overflow: hidden;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image:
+      linear-gradient(rgba(79, 240, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(79, 240, 255, 0.04) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+
+  > header,
+  .games-hud,
+  .games-grid {
+    position: relative;
+    z-index: 1;
+  }
+
+  .title h2 a {
+    color: var(--games-text) !important;
+    font-family: "Orbitron", "Trebuchet MS", sans-serif;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .title p {
+    color: var(--games-muted) !important;
+    font-family: "Rajdhani", "Trebuchet MS", sans-serif;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    margin-top: 0.7rem;
+  }
+
+  .games-hud {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: 1.6rem 0 2.1rem;
+  }
+
+  .games-hud__panel {
+    border: 1px solid var(--games-line);
+    border-radius: 10px;
+    padding: 0.75rem 1rem;
+    background: linear-gradient(
+      140deg,
+      rgba(12, 29, 52, 0.86),
+      rgba(10, 15, 29, 0.86)
+    );
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.035);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .games-hud__label {
+    color: var(--games-muted);
+    text-transform: uppercase;
+    font-family: "Rajdhani", "Trebuchet MS", sans-serif;
+    letter-spacing: 0.09em;
+    font-size: 0.78rem;
+  }
+
+  .games-hud__value {
+    color: var(--games-cold);
+    font-family: "Orbitron", "Trebuchet MS", sans-serif;
+    letter-spacing: 0.08em;
+    font-size: 0.84rem;
+    text-transform: uppercase;
+  }
+
+  .games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 1.35rem;
+  }
+
+  .mini-post {
+    border-radius: 12px;
+    border: 1px solid rgba(79, 240, 255, 0.25);
+    background: linear-gradient(155deg, var(--games-card-a), var(--games-card-b));
+    padding: 1rem;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+
+    &:hover {
+      transform: translateY(-4px);
+      border-color: rgba(255, 139, 42, 0.4);
+      box-shadow:
+        0 14px 34px rgba(0, 0, 0, 0.35),
+        0 0 0 1px rgba(255, 139, 42, 0.2);
+    }
+  }
+
+  .game-rank {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: rgba(255, 139, 42, 0.78);
+    font-family: "Orbitron", "Trebuchet MS", sans-serif;
+    font-size: 0.72rem;
+    letter-spacing: 0.12em;
+  }
+
+  h3 {
+    margin: 0 2.7rem 0.8rem 0;
+
+    a {
+      color: var(--games-text) !important;
+      font-family: "Orbitron", "Trebuchet MS", sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      text-decoration: none;
+      font-size: 0.86rem;
+      line-height: 1.45;
+
+      &:hover {
+        color: var(--games-cold) !important;
+      }
+    }
+  }
+
+  .image {
+    display: block;
+    margin-bottom: 0.9rem;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(79, 240, 255, 0.2);
+    background: #050b1a;
+
+    img {
+      width: 100%;
+      height: 188px;
+      object-fit: cover;
+      display: block;
+      filter: saturate(1.08) contrast(1.02);
+      transition: transform 230ms ease;
+    }
+
+    &:hover img {
+      transform: scale(1.035);
+    }
+  }
+
+  .game-info {
+    p {
+      margin: 0 0 0.35rem;
+      font-family: "Rajdhani", "Trebuchet MS", sans-serif;
+      color: var(--games-text);
+      font-size: 0.95rem;
+      line-height: 1.35;
+    }
+
+    strong {
+      color: var(--games-cold);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+  }
+
+  .game-platform-pill {
+    display: inline-block;
+    border: 1px solid rgba(255, 139, 42, 0.35);
+    color: var(--games-hot) !important;
+    padding: 0.13rem 0.52rem;
+    border-radius: 999px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.72rem !important;
+    margin-bottom: 0.65rem !important;
+  }
+
+  @include breakpoint(medium) {
+    .games-hud {
+      grid-template-columns: 1fr;
+    }
+
+    .games-hud__panel {
+      gap: 0.6rem;
+    }
+  }
+
+  @include breakpoint(small) {
+    .games-grid {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  }
+}

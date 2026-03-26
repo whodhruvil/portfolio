@@ -54,6 +54,7 @@
 @import "components/section";
 @import "components/table";
 @import "components/hamburger";
+@import "components/shine-border";
 
 // Layout.
 
@@ -72,4 +73,8 @@
 @import "views/skills";
 @import "views/stats";
 @import "views/tools";
+@import "views/games";
 @import "views/recommendation";
+
+// Dark Theme
+@import "dark-theme";

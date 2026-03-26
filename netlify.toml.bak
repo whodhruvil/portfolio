@@ -1,0 +1,16 @@
+[build]
+  base = "."
+  command = "npm install --legacy-peer-deps && npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NODE_ENV = "production"
+  BASE_PATH = ""
+  GA_ID = ""
+
+# Redirects for SPA routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

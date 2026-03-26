@@ -3,112 +3,104 @@
 
 const skills = [
   {
-    title: "Javascript",
-    competency: 4,
+    title: "JavaScript",
+    svgFile: "js.svg",
     category: ["Web Development", "Languages", "Javascript"],
   },
   {
-    title: "Node JS",
-    competency: 3,
+    title: "Node.js",
+    svgFile: "nodejs.svg",
     category: ["Web Development", "Backend", "Javascript"],
   },
   {
-    title: "php",
-    competency: 3,
+    title: "PHP",
+    svgFile: "php.svg",
     category: ["Web Development", "Backend", "Languages"],
   },
   {
     title: "React Native",
-    competency: 4,
+    svgFile: "reactts-native.svg",
     category: ["Mobile Application", "Javascript"],
   },
   {
     title: "React",
-    competency: 4,
+    svgFile: "react-svgrepo-com.svg",
     category: ["Web Development", "Frontend", "Javascript"],
   },
   {
-    title: "Next JS",
-    competency: 3,
+    title: "Next.js",
+    svgFile: "next-js.svg",
     category: ["Web Development", "Frontend", "Javascript"],
   },
   {
     title: "GraphQL",
-    competency: 2,
+    svgFile: "graphql.svg",
     category: ["Web Development", "Frontend"],
   },
   {
-    title: "Amazon Web Services",
-    competency: 2,
-    category: ["Web Development", "Tools"],
-  },
-  {
-    title: "Heroku",
-    competency: 2,
+    title: "AWS",
+    svgFile: "aws.svg",
     category: ["Web Development", "Tools"],
   },
   {
     title: "Magento",
-    competency: 2,
+    svgFile: "magento.svg",
     category: ["Web Development", "Tools"],
   },
   {
     title: "MongoDB",
-    competency: 3,
-    category: ["Web Development", "Databases"],
-  },
-
-  {
-    title: "PostgreSQL/SQLite3/SQL",
-    competency: 3,
+    svgFile: "mongo.svg",
     category: ["Web Development", "Databases"],
   },
   {
-    title: "Django",
-    competency: 2,
-    category: ["Web Development", "Backend", "Python"],
+    title: "PostgreSQL",
+    svgFile: "postgresql.svg",
+    category: ["Web Development", "Databases"],
   },
   {
-    title: "Git/Mercurial",
-    competency: 3,
+    title: "Git",
+    svgFile: "git.svg",
     category: ["Tools"],
   },
   {
-    title: "Numpy",
-    competency: 1,
-    category: ["Data Science", "Data Engineering", "Python"],
-  },
-
-  {
-    title: "Jupyter",
-    competency: 2,
-    category: ["Data Science", "Python"],
-  },
-  {
-    title: "Typescript",
-    competency: 3,
+    title: "TypeScript",
+    svgFile: "typescript.svg",
     category: ["Web Development", "Languages", "Javascript"],
   },
   {
-    title: "HTML + CSS",
-    competency: 4,
+    title: "HTML",
+    svgFile: "html.svg",
     category: ["Web Development", "Frontend"],
   },
   {
-    title: "Python",
-    competency: 3,
-    category: ["Web Development", "Languages", "Python"],
+    title: "CSS",
+    svgFile: "css.svg",
+    category: ["Web Development", "Frontend"],
   },
   {
-    title: "Data Visualization",
-    competency: 2,
-    category: ["Data Science", "Javascript"],
+    title: "Tailwind CSS",
+    svgFile: "tailwindcss.svg",
+    category: ["Web Development", "Frontend"],
   },
-
   {
-    title: "Pandas",
-    competency: 2,
-    category: ["Data Engineering", "Data Science", "Python"],
+    title: "SASS",
+    svgFile: "sass.svg",
+    category: ["Web Development", "Frontend"],
+  },
+  {
+    title: "Redux",
+    svgFile: "redux.svg",
+    category: ["Web Development", "Frontend"],
+  },
+  {
+    title: "Webpack",
+    svgFile: "webpack.svg",
+    category: ["Web Development", "Frontend"],
+  },
+  {
+    title: "Storybook",
+    svgFile: "storybook.svg",
+    category: ["Web Development", "Frontend"],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
